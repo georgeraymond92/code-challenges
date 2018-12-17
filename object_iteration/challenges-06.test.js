@@ -152,9 +152,12 @@ const houseSize = (arr) => {
   const sizes = [];
   // Solution code here...
 
-  for(let properties in arr){
-    console.log(Object.values(arr)[properties].house);
-  }
+  // for(let properties in arr){
+  //   let stark;
+  //   let 
+  //   console.log(Object.values(arr)[properties].house);
+
+  // }
   // if(sizes.length === 0){
   //   console.log("made it");
   //   sizes.push({house: Object.values(arr)[0].house, members: 1 })
@@ -173,10 +176,10 @@ const houseSize = (arr) => {
   //       }
   //     }
   //   }
-  // }
+  // // }
 
   
-  console.log(sizes.length);
+  // // console.log(sizes.length);
 
 
   return sizes;
